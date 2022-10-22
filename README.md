@@ -73,6 +73,10 @@ aws dynamodb update-table \
         \"ProvisionedThroughput\": {\"ReadCapacityUnits\": 10, \"WriteCapacityUnits\": 5      },\"Projection\":{\"ProjectionType\":\"ALL\"}}}]"
 ```
 
+- Serviço na Amazon
+
+![Adição de vários intens](./img/index_global_album_nuvem.PNG)
+
 - Criar um index global secundário baseado no nome do artista e no título do álbum
 
 ```
