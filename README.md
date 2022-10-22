@@ -9,6 +9,10 @@ Repositório sobre o Amazon DynamoDB
 - Efeturar a clonagem do repositório
 - Acessar o caminho da pasta src pelo WSL, para execução dos arquivos .json contidos nela
 - Digitar ```aws configure``` para inserir as chaves de acesso
+  - AWS Access Key ID []:
+  - AWS Secret Access Key []:
+  - Default region name []: us-east-1
+  - Default output format []: json
 
 ### Comandos para execução do experimento:
 
