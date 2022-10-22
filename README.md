@@ -110,7 +110,7 @@ aws dynamodb query \
 
 - Serviço na Amazon
 
-![Adição de vários intens](./img/)
+![Pesquisa por Artista](./img/pesquisa_item_por_artista_realizada.PNG)
 
 - Pesquisar item por artista e título da música
 
@@ -120,6 +120,9 @@ aws dynamodb query \
     --key-condition-expression "Artist = :artist and SongTitle = :title" \
     --expression-attribute-values file://keyconditions.json
 ```
+- Serviço na Amazon
+
+![Pesquisa por Artista e Musica](./img/pequisar_item_por_artista_musica_sem_index_realizada.PNG)
 
 - Pesquisa pelo index secundário baseado no título do álbum
 
