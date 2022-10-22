@@ -32,7 +32,12 @@ aws dynamodb create-table \
         ReadCapacityUnits=10,WriteCapacityUnits=5
 ```
 - Saída no terminal
+
 ![Criação da Tabela](./img/tabela_criada.PNG)
+
+- Serviço na Amazon
+
+![Criação da Tabela](./img/tabela_criada_nuvem.PNG)
 
 - Inserir um item
 
