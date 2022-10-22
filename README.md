@@ -1,9 +1,14 @@
 # dio-live-dynamodb
-Repositório para o live coding do dia 30/09/2021 sobre o Amazon DynamoDB
+Repositório sobre o Amazon DynamoDB
 
 ### Serviço utilizado
   - Amazon DynamoDB
   - Amazon CLI para execução em linha de comando
+
+### Login no sistema da Amazon
+- Efeturar a clonagem do repositório
+- Acessar o caminho da pasta src pelo WSL, para execução dos arquivos .json contidos nela
+- Digitar ```aws configure``` para inserir as chaves de acesso
 
 ### Comandos para execução do experimento:
 
