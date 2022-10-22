@@ -47,12 +47,20 @@ aws dynamodb put-item \
     --item file://itemmusic.json \
 ```
 
+- Serviço na Amazon
+
+![Adição de um intem](./img/item_inserido_na_tabela_nuvem.PNG)
+
 - Inserir múltiplos itens
 
 ```
 aws dynamodb batch-write-item \
     --request-items file://batchmusic.json
 ```
+
+- Serviço na Amazon
+
+![Adição de vários intens](./img/itens_inseridos_na_tabela_nuvem.PNG)
 
 - Criar um index global secundário baeado no título do álbum
 
@@ -99,6 +107,11 @@ aws dynamodb query \
     --key-condition-expression "Artist = :artist" \
     --expression-attribute-values  '{":artist":{"S":"Iron Maiden"}}'
 ```
+
+- Serviço na Amazon
+
+![Adição de vários intens](./img/)
+
 - Pesquisar item por artista e título da música
 
 ```
