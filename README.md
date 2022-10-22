@@ -169,6 +169,10 @@ aws dynamodb query \
     --expression-attribute-values  '{":v_artist":{"S":"Iron Maiden"},":v_title":{"S":"Fear of the Dark"} }'
 ```
 
+- Saída no terminal
+
+![Pesquisa Index por Artista Álbum](./img/pesquisa_index_artista_album.PNG)
+
 - Pesquisa pelo index secundário baseado no título da música e no ano
 
 ```
