@@ -151,6 +151,10 @@ aws dynamodb query \
     --expression-attribute-values  '{":name":{"S":"Fear of the Dark"}}'
 ```
 
+- Saída no terminal
+
+![Pesquisa por Música](./img/pesquisa_index_album.PNG)
+
 - Pesquisa pelo index secundário baseado no nome do artista e no título do álbum
 
 ```
