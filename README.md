@@ -124,6 +124,19 @@ aws dynamodb query \
 
 ![Pesquisa por Artista e Musica](./img/pequisar_item_por_artista_musica_sem_index_realizada.PNG)
 
+- Pesquisar item por música
+
+```
+aws dynamodb query \
+    --table-name Music \
+    --key-condition-expression "SongTitle = :title" \
+    --expression-attribute-values  '{":title":{"S":"The Apparition"}}'
+```
+
+- Serviço na Amazon
+
+![Pesquisa por Música](./img/pesquisar_item_por_musica_sem_index_falha.PNG)
+
 - Pesquisa pelo index secundário baseado no título do álbum
 
 ```
