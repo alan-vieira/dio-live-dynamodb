@@ -108,7 +108,7 @@ aws dynamodb query \
     --expression-attribute-values  '{":artist":{"S":"Iron Maiden"}}'
 ```
 
-- Serviço na Amazon
+- Saída no terminal
 
 ![Pesquisa por Artista](./img/pesquisa_item_por_artista_realizada.PNG)
 
@@ -120,7 +120,7 @@ aws dynamodb query \
     --key-condition-expression "Artist = :artist and SongTitle = :title" \
     --expression-attribute-values file://keyconditions.json
 ```
-- Serviço na Amazon
+- Saída no terminal
 
 ![Pesquisa por Artista e Musica](./img/pequisar_item_por_artista_musica_sem_index_realizada.PNG)
 
@@ -133,7 +133,7 @@ aws dynamodb query \
     --expression-attribute-values  '{":title":{"S":"The Apparition"}}'
 ```
 
-- Serviço na Amazon
+- Saída no terminal
 
 ![Pesquisa por Música](./img/pesquisar_item_por_musica_sem_index_falha.PNG)
 
