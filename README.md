@@ -31,6 +31,8 @@ aws dynamodb create-table \
     --provisioned-throughput \
         ReadCapacityUnits=10,WriteCapacityUnits=5
 ```
+- Saída no terminal
+![Criação da Tabela](./img/tabela_criada.PNG)
 
 - Inserir um item
 
