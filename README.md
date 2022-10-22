@@ -62,7 +62,7 @@ aws dynamodb batch-write-item \
 
 ![Adição de vários intens](./img/itens_inseridos_na_tabela_nuvem.PNG)
 
-- Criar um index global secundário baeado no título do álbum
+- Criar um index global secundário baseado no título do álbum
 
 ```
 aws dynamodb update-table \
@@ -106,6 +106,10 @@ aws dynamodb update-table \
         "[{\"Create\":{\"IndexName\": \"SongTitleYear-index\",\"KeySchema\":[{\"AttributeName\":\"SongTitle\",\"KeyType\":\"HASH\"}, {\"AttributeName\":\"SongYear\",\"KeyType\":\"RANGE\"}], \
         \"ProvisionedThroughput\": {\"ReadCapacityUnits\": 10, \"WriteCapacityUnits\": 5      },\"Projection\":{\"ProjectionType\":\"ALL\"}}}]"
 ```
+
+- Serviço na Amazon
+
+![Criação de Index Artista Album](./img/criacao_index_musica_ano.PNG)
 
 - Pesquisar item por artista
 
